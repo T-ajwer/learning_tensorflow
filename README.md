@@ -43,7 +43,17 @@ Prepare for **EDISS (Erasmus Mundus in Data-Intensive and Intelligent Software S
 - Build more complex architectures
 - Work with real-world datasets
 
+
+**Day 3** (January 29, 2026)
+- ✅ Normalization experiments (255, 256, 128)
+- ✅ Improved model with Dropout layers
+- ✅ Training visualization (accuracy + loss curves)
+- ✅ Error analysis and confusion matrix
+- ✅ Confidence analysis on wrong predictions
+- **Result: 98.11% test accuracy**
+- File: `day3_improving_mnist.ipynb`
+
 ---
 
 *Updated daily. Consistency over intensity.*
-*Days completed: 2/700*
+*Days completed: 3/700*

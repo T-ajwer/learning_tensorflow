@@ -53,7 +53,18 @@ Prepare for **EDISS (Erasmus Mundus in Data-Intensive and Intelligent Software S
 - **Result: 98.11% test accuracy**
 - File: `day3_improving_mnist.ipynb`
 
+
+**Day 4** (February 2, 2026)
+- 🔬 **Research Project:** [Pakistani Truck Art Style Classifier](https://github.com/T-ajwer/Truck_art_classifier-)
+- 🎯 **Focus:** Experimental study on class imbalance and data scarcity
+- 📊 **Dataset:** 139 images, severe imbalance (10-47 per class)
+- 🔍 **Key Finding:** Demonstrated why 100% accuracy on 2 samples is statistically meaningless
+- 💡 **Lessons:** Minimum dataset requirements, overfitting analysis, critical metric interpretation
+- **Status:** Published as standalone research project
+
+**Key Insight:** Real-world ML often involves data constraints. Documenting these challenges honestly demonstrates scientific maturity.
+
 ---
 
 *Updated daily. Consistency over intensity.*
-*Days completed: 3/700*
+*Days completed: 4/700*

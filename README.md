@@ -64,6 +64,191 @@ Prepare for **EDISS (Erasmus Mundus in Data-Intensive and Intelligent Software S
 
 **Key Insight:** Real-world ML often involves data constraints. Documenting these challenges honestly demonstrates scientific maturity.
 
+
+
+# 🚀 Machine Learning Journey - Tajwer Fatima
+
+**Goal:** Building toward graduate ML programs (EDISS 2028) through daily hands-on learning
+
+**Current Status:** Day 6 of 700-day journey  
+**Started:** January 25, 2026
+
+---
+
+## 📊 Projects
+
+### 🎨 Project 1: Pakistani Truck Art Classifier (Day 4)
+**Repository:** [Truck_art_classifier](https://github.com/T-ajwer/Truck_art_classifier-)
+
+**Objective:** Research study on class imbalance effects in CNNs
+
+**Dataset:**
+- 139 images across 4 style categories
+- Severely imbalanced: Floral (35), Geometric (45), Portrait (47), Calligraphy (12)
+
+**Approach:**
+- Transfer learning with MobileNetV2
+- Data augmentation techniques
+- Per-class accuracy analysis
+
+**Results:**
+- Overall validation: 61%
+- Calligraphy: 100% accuracy (statistical noise - only 2 validation samples!)
+- Discovered: Small validation sets produce unreliable metrics
+
+**Key Learning:**
+> Even 100% accuracy can be meaningless without sufficient sample size. This project became a case study on statistical significance in ML evaluation.
+
+**Files:** `day4_truck_art_classifier.ipynb`
+
+---
+
+### 🍕 Project 2: Food Classifier - Pipeline Learning (Day 5)
+**Notebook:** `day5_food_classifier_synthetic.ipynb`
+
+**Objective:** Master complete ML pipeline using synthetic data (no dataset download issues)
+
+**Dataset:**
+- 600 synthetic images (150 per category: pizza, burger, sushi, pasta)
+- Balanced distribution
+- Random colored images (noise, not real patterns)
+
+**Approach:**
+- MobileNetV2 transfer learning
+- Data augmentation (rotation, shifts, zoom, flips)
+- Dropout regularization
+
+**Results:**
+- Validation accuracy: 40-44%
+- Training accuracy: 70-80%
+- Overfitting gap: 30-36% (severe)
+
+**Discovery - Training Non-Determinism:**
+Ran training twice with identical code:
+- Run 1: 70% train / 40% val
+- Run 2: 80% train / 44% val
+
+**Analysis:**
+- Observed overfitting in real-time (validation decreased after epoch 6)
+- Wobbling validation loss indicated model confusion
+- Proved: Even powerful models can't extract patterns from pure noise
+
+**Key Learning:**
+> Data quality matters more than model complexity. This experiment demonstrated that MobileNetV2 (trained on 1.4M real images) barely beat random guessing (25%) on synthetic noise.
+
+---
+
+### 🐾 Project 3: Animal Classifier (Day 6)
+**Notebook:** `day6_animal_classifier.ipynb`
+
+**Objective:** Build real classifier with balanced data, applying lessons from Days 4-5
+
+**Dataset:**
+- Animals-10 from Kaggle (~7,000 images)
+- 4 balanced categories: Sheep (1,820), Cow (1,866), Squirrel (1,862), Elephant (1,446)
+- Clean, real-world images
+
+**Approach:**
+- MobileNetV2 transfer learning
+- Data augmentation
+- Dropout regularization
+- Balanced class distribution (learned from Day 4!)
+- Quality real data (learned from Day 5!)
+
+**Results:**
+- **Training accuracy: 95%**
+- **Validation accuracy: 94%**
+- **Overfitting gap: Only 1%!** (excellent generalization)
+
+**Observations:**
+- Validation curves remained stable (confident learning)
+- First 5 epochs: Linear improvement (learning big patterns)
+- Later epochs: Fine-tuning subtle distinctions
+- No wobbling loss (unlike Day 5)
+
+**Key Learning:**
+> Real patterns + balanced data = stable, high-performance learning. The 1% overfitting gap demonstrates healthy generalization.
+
+---
+
+## 📈 The Learning Arc
+
+**Progression Across 3 Projects:**
+
+| Project | Data Quality | Balance | Accuracy | Overfitting Gap |
+|---------|--------------|---------|----------|-----------------|
+| Day 4: Truck Art | Real, limited | ❌ Imbalanced | 61% | High |
+| Day 5: Food | Synthetic noise | ✅ Balanced | 44% | 30-36% |
+| Day 6: Animals | Real, abundant | ✅ Balanced | 94% | 1% |
+
+**Hypothesis Proved:**
+> Balance + Quality Data = Success
+
+---
+
+## 🎓 Techniques Applied
+
+**From AlexNet (2012) Paper:**
+- ✅ ReLU activation (via MobileNetV2)
+- ✅ Dropout for overfitting prevention
+- ✅ Data augmentation (rotation, flips, shifts, zoom)
+- ✅ Transfer learning concept
+
+**Modern Architecture:**
+- MobileNetV2 (evolved from AlexNet principles)
+- Global Average Pooling
+- Batch Normalization
+- Depthwise Separable Convolutions
+
+---
+
+## 💡 Key Insights
+
+**Day 4 → Day 5 → Day 6 taught me:**
+
+1. **Class imbalance** creates unreliable metrics (Day 4)
+2. **Data quality** matters more than model sophistication (Day 5)
+3. **Balanced + real data** produces stable, high-accuracy learning (Day 6)
+4. **Training curves** tell the story of learning vs memorization
+5. **Overfitting gap** is the key metric for generalization
+
+---
+
+## 🛠️ Technical Stack
+
+- **Framework:** TensorFlow/Keras
+- **Architecture:** MobileNetV2 (ImageNet pre-trained)
+- **Techniques:** Transfer learning, data augmentation, dropout
+- **Tools:** Google Colab, Kaggle datasets, GitHub
+- **Languages:** Python, NumPy, Matplotlib
+
+---
+
+## 🎯 Next Steps
+
+- **Day 7+:** Continue building diverse classifiers
+- **Month 2:** Start reading ML research papers
+- **Month 6:** Begin first research paper
+- **2028:** Apply to EDISS and top ML graduate programs
+
+---
+
+## 📫 Connect
+
+- **GitHub:** [T-ajwer](https://github.com/T-ajwer)
+- **LinkedIn:** [Tajwer Fatima](https://linkedin.com/in/tajwer-fatima-71822130b)
+
+---
+
+**Journey Stats:**
+- 📅 Days completed: 6/700
+- 🎯 Projects built: 3
+- 📚 Research papers read: 1 (AlexNet)
+- 💪 Daily commitment: 1-2 hours
+- 🔥 Consistency: Learning in public
+
+*Last updated: February 22, 2026*
+
 ---
 
 *Updated daily. Consistency over intensity.*

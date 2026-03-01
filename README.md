@@ -231,6 +231,63 @@ Ran training twice with identical code:
 - **Month 6:** Begin first research paper
 - **2028:** Apply to EDISS and top ML graduate programs
 
+
+
+## Day 7: Weather Classifier (Feb 26, 2026)
+
+**Project:** 3-class balanced weather classifier
+
+**Dataset Selection Process:**
+- Explored 11 weather categories in dataset
+- Noticed severe imbalance (1160 vs 377 images)
+- Applied Day 4 lesson: selected balanced categories
+- Final selection: Hail (591), Snow (621), Sandstorm (692)
+
+**Results:**
+- Training: 97%
+- Validation: 96%
+- **Overfitting gap: 0.72%** (better than Day 6's 1%!)
+
+**Key Achievement:**
+Independently identified and corrected class imbalance before training. This demonstrates:
+- Critical data analysis skills
+- Application of lessons from previous projects
+- Research-level decision making
+
+**Progression:**
+- Day 6: 95% train, 94% val
+- Day 7: 97% train, 96% val
+- Improvement: +2% accuracy, better generalization
+
+**Built during Ramadan** - maintaining consistency despite fasting 🌙
+
+
+## Day 8: Flower Classifier (Feb 27, 2026)
+
+**Project:** 4-class balanced flower classifier
+
+**Categories:** Sunflower (733), Daisy (764), Rose (784), Tulip (984)
+
+**Results:**
+- Training: 96%
+- Validation: 94%
+- Overfitting gap: 2%
+
+**Key Observation:**
+Training curves showed significantly more fluctuation compared to Days 6-7. Analysis revealed this is due to flowers having subtle differences (similar petal structures, varying colors) making pattern learning more challenging than weather phenomena or animal shapes.
+
+**Analytical Insight:**
+Recognized that curve stability doesn't determine final accuracy - dataset difficulty affects training dynamics. Both smooth and fluctuating curves can achieve excellent results.
+
+**Progression:**
+- Day 6 (Animals): 94% val, smooth curves
+- Day 7 (Weather): 96% val, smooth curves  
+- Day 8 (Flowers): 94% val, fluctuating curves
+
+**Demonstrated:** Ability to analyze and compare training behaviors across projects - researcher-level observation skills.
+
+**Built during Ramadan** - 3 consecutive days of consistency 🌙
+
 ---
 
 ## 📫 Connect
@@ -247,7 +304,7 @@ Ran training twice with identical code:
 - 💪 Daily commitment: 1-2 hours
 - 🔥 Consistency: Learning in public
 
-*Last updated: February 22, 2026*
+*Last updated: February 26, 2026*
 
 ---
 

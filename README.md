@@ -288,6 +288,48 @@ Recognized that curve stability doesn't determine final accuracy - dataset diffi
 
 **Built during Ramadan** - 3 consecutive days of consistency 🌙
 
+
+
+## Day 9: Vehicle Classifier (Mar 1, 2026)
+
+**Categories:** Bus, Car, Truck, Motorcycle (100 images each - perfectly balanced!)
+
+**Results:**
+- Validation Accuracy: 95%
+- Motorcycle: Perfect 1.00 F1-score
+- Bus: Strong recall (1.00) but lower precision (0.83)
+- Truck: Weakest recall (0.85) - occasionally confused with bus
+
+**New Skill:** Per-class metrics (Precision, Recall, F1-Score)
+- Learned that overall accuracy hides per-class weaknesses
+- Fixed shuffle=False bug in validation generator
+
+**Key Observation:** Small dataset (100/class) starts at ~20% epoch 1 vs ~60% with larger datasets - model needs more epochs to learn from less data
+
+
+## Days 11-13: Data Analysis & Visualization (March 2026)
+
+**Dataset:** Titanic (891 passengers, 12 features)
+
+**Day 11 - Pandas Basics:**
+- Explored real historical dataset
+- Found missing values and understood WHY they exist
+- Discovered sampling bias independently
+- Survival analysis by gender, class, and age groups
+
+**Day 12 - Matplotlib:**
+- Built bar charts from scratch
+- Visualized survival rates by gender and class
+- Learned: same data, visual form = instant understanding
+
+**Day 13 - Seaborn:**
+- Correlation heatmap across all variables
+- Age distribution histogram
+- Box plots with outlier detection
+
+**Key Finding:** Wealth and gender literally determined 
+who lived and died on the Titanic — visible in data!!
+
 ---
 
 ## 📫 Connect

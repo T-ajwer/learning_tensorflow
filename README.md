@@ -330,6 +330,30 @@ Recognized that curve stability doesn't determine final accuracy - dataset diffi
 **Key Finding:** Wealth and gender literally determined 
 who lived and died on the Titanic — visible in data!!
 
+## Day 14: Exploratory Data Analysis - Crop Recommendation (March 2026)
+
+**Dataset:** Crop Recommendation (2200 rows, 22 crops, 8 features)
+
+**What I did:**
+- Full EDA on agricultural dataset
+- Analyzed NPK (Nitrogen, Phosphorus, Potassium) requirements per crop
+- Visualized nutrient patterns across 22 crops
+- Created personal NPK chart for my family's crops!!
+
+**Key Findings:**
+- Cotton = highest nitrogen needs (~118) — most expensive crop
+- Apple & Grapes = highest potassium (~200) — premium fruits
+- Mango & Orange = lowest NPK — naturally low maintenance
+- Fruits generally need more fertilizer than grains
+
+**Personal Connection:**
+- My family grows rice, cotton, maize, mango, orange
+- Data confirmed what our farmers already knew from generations!!
+- Cotton is high maintenance, mango fruits every year with minimal care
+
+**New Skills:** EDA workflow, multi-variable bar charts, 
+domain knowledge + data science combination
+
 ---
 
 ## 📫 Connect

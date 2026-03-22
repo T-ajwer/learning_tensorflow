@@ -354,6 +354,19 @@ who lived and died on the Titanic — visible in data!!
 **New Skills:** EDA workflow, multi-variable bar charts, 
 domain knowledge + data science combination
 
+
+## Day 18: Neural Network From Scratch (March 2026)
+- Built Keras NN on crop data — 99% accuracy
+- Watched loss decrease and accuracy increase live
+- Predicted family crops (rice ✅, cotton ✅)
+- Debugged using agricultural domain knowledge!!
+
+## Day 19: NLP Basics (March 2026)
+- Learned Bag of Words — converting text to numbers
+- Built spam detector — 98.83% accuracy
+- Discovered context limitation of simple NLP
+- Found false positive: "Congratulations you are accepted!!"
+- Understood WHY NLP evolved toward Transformers!!
 ---
 
 ## 📫 Connect
